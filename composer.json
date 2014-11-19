@@ -1,0 +1,22 @@
+{
+    "name": "kowali/formatting",
+    "description": "Formatting utilities",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thomas Hupkens",
+            "email": "thomas@hupkens.be"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+        "erusev/parsedown-extra": "0.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kowali\\Formatting\\" : "src/Kowali/Formatting/"
+        }
+    },
+    "minimum-stability": "stable"
+}
